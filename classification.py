@@ -87,7 +87,7 @@ def main():
 	ylabels=[]
 
 	foo=np.copy(X)
-	for features_tokeep in range(500,5001,500):
+	for features_tokeep in range(5000,10001,1000):
 		X=np.copy(foo)
 		xlabels.append(features_tokeep)
 		print xlabels
